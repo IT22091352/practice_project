@@ -11,8 +11,8 @@ app.use("/",(req,res,next) => {
 
 //calling mongoose
 mongoose.connect("mongodb+srv://practice_project:Xy92f8aW9ZhTMxLt@cluster0.uaa4e5k.mongodb.net/")
-.then(()=> console.log("Connected to database"))
+.then(()=> console.log("Connected to MongoDB"))
 .then(()=>{
     app.listen(5000);
 })
-.catch((err)=>console.log(err));
+.catch((err)=>console.log((err)));
