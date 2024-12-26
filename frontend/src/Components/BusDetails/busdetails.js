@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Nav from '../Nav/Nav';
 import axios from 'axios';
-import Bus from '../../Bus/bus';
+import Bus from '../Bus/bus';
 
 const URL = "http://localhost:5000/Buses";
 const fetchHandler = async () => {
