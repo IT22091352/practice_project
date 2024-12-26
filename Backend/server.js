@@ -6,8 +6,9 @@ const app = express();
 const cors = require('cors');
 
 //middleware
-app.use(cors());
+
 app.use(express.json()); //postman eken send krna data tika renposive wenna hdna eka
+app.use(cors());
 app.use("/Buses",router);
 
 
