@@ -12,7 +12,7 @@ function Nav() {
         </Link>
         </div>
         <div className="contact">
-        <Link to="/bus" className="active-home">
+        <Link to="/AddBus" className="active-home">
           <h2>Add buses</h2>
           </Link>
         </div>

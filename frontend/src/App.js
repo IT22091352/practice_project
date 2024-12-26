@@ -3,7 +3,7 @@ import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import BusDetails from "./Components/BusDetails/busdetails";
-import Bus from "./Bus/bus";
+import AddBus from "./Components/AddBus/AddBus";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/mainhome" component={Home} />
-          <Route path="/bus" component={Bus} />
+          <Route path="/addBus" component={AddBus} />
           <Route path="/busdetails" component={BusDetails} /> 
         </Switch>
       </React.Fragment>
